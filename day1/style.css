@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #a87f88;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#box1{
+    width: 23%;
+    height: 100%;
+}
+#box2{
+    width: 65%;
+    height: 100%;
+    background-image: url(assert/girl.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+     width: 100%;
+     background-color: #443a4679;
+}
+#box3{
+    width: 12%;
+    height: 100%;
+}
+.text-div{
+    /* height: 400px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.text-div h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.small-image{
+position: absolute;
+background-image: url(assert/girl2.jpg);
+background-size: cover;
+background-position: center;
+width: 250px;
+height: 300px;
+top: 50%;
+right: 5%;
+transform: translate(0, -50%);
+}
+.small-image img{
+    height: 100%;
+    width: 100%;
+}
+#vertical-text{
+    position: absolute;
+    right: -45%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+#vertical-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: transparent;
+    font-family: monospace;
+    /* letter-spacing: 10px; */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+#nav{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+#nav img{
+    width: 50px;
+}
+
+
